@@ -1,0 +1,891 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ko",
+				"koc	knockout-computed"
+			],
+			[
+				"strava",
+				"stravaId"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"ath",
+				"athlete"
+			],
+			[
+				"all",
+				"allEfforts"
+			],
+			[
+				"stra",
+				"stravaId"
+			],
+			[
+				"curr",
+				"currentUserId"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sorted",
+				"sortedAll"
+			],
+			[
+				"m",
+				"momentStart"
+			],
+			[
+				"mom",
+				"momentEnd"
+			],
+			[
+				"effortC",
+				"effortCount"
+			],
+			[
+				"sort",
+				"sortIndex"
+			],
+			[
+				"u",
+				"udetect	underscore-detect"
+			],
+			[
+				"el",
+				"elapsedTime"
+			],
+			[
+				"th",
+				"thisAthlete"
+			],
+			[
+				"each",
+				"eachEffort"
+			],
+			[
+				"eac",
+				"each"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"buc",
+				"bucket"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"cur",
+				"currentBuckets"
+			],
+			[
+				"c",
+				"currentBuckets"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"athlete",
+				"athletes"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"call",
+				"callSpec"
+			],
+			[
+				"pro",
+				"procentProgress"
+			],
+			[
+				"use",
+				"useMini"
+			],
+			[
+				"set",
+				"setCurrentUserData"
+			],
+			[
+				"has",
+				"hasCurrentUser"
+			],
+			[
+				"ps",
+				"pssub	pubsub-subscribe"
+			],
+			[
+				"sp",
+				"spinners"
+			],
+			[
+				"spi",
+				"spinner"
+			],
+			[
+				"pu",
+				"pssub	pubsub-subscribe"
+			],
+			[
+				"eff",
+				"efforts"
+			],
+			[
+				"so",
+				"sortMeth"
+			],
+			[
+				"se",
+				"serverObj"
+			],
+			[
+				"bu",
+				"bucket"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"Nu",
+				"NumberOfBuckets"
+			],
+			[
+				"com",
+				"competition"
+			],
+			[
+				"co",
+				"competitions"
+			],
+			[
+				"st",
+				"startTime"
+			],
+			[
+				"tim",
+				"timespan"
+			],
+			[
+				"h",
+				"hssh	fileheader-ssh"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"bucket",
+				"buckets"
+			],
+			[
+				"buck",
+				"bucks"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"cu",
+				"currentContents"
+			],
+			[
+				"con",
+				"contents"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"lin",
+				"linesEachAthleteOnce"
+			],
+			[
+				"Effo",
+				"Efforts"
+			],
+			[
+				"St",
+				"StartDateLocal"
+			],
+			[
+				"sta",
+				"StartDateLocal"
+			],
+			[
+				"str",
+				"StravaId"
+			],
+			[
+				"get",
+				"getEfforts"
+			],
+			[
+				"selector",
+				"selectors"
+			],
+			[
+				"lagr",
+				"lagringOk"
+			],
+			[
+				"detal",
+				"detaljId"
+			],
+			[
+				"doc",
+				"docload	docload"
+			],
+			[
+				"kode",
+				"kodeId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"C#",
+				"Set Syntax: C#"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: knockout-computed"
+			],
+			[
+				"boo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"new view",
+				"File: New View into File"
+			],
+			[
+				"Java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"koc",
+				"Snippet: knockout-computed"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"snipjque",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"snipp jqu",
+				"Snippet: jQuery AJAX call"
+			],
+			[
+				"snippet:kn",
+				"Snippet: simple knockoutjs viewModel"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package CO",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package co",
+				"Package Control: Add Channel"
+			],
+			[
+				"PackageC",
+				"Package Control: List Packages"
+			],
+			[
+				"Pakc",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"Package C",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Co",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/FordelBelopViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/InnbetalingerViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/miljo.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/ValgtKundeViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetalingstransaksjon.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/ViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/InnbetalingsKunde.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/HentInnbetalingerViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/miljo.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/SokKundeViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/ValgtInnbetalingViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/KundeKonto/InnbetalingskontoerModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/LanWeb-HL3.sublime-project",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web.Tests/Scripts/Modulis/KundeKonto/InnbetalingskontoerModel.tests.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/BrowserHistory.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web.Tests/Scripts/Modulis/KundeKonto/InnbetalingskontoerModel.tests.html",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/KundeKonto/KontobevegelserViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/KundeKonto/SidePanelViewModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb-HL3.sublime-project",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Utdanningsgodkjenning.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/StravaEffortServiceClient.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Single/ViewModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Single/init.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Multi/CompetitionDataModel.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Content/Innbetaling/Oppgjor/view.css",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/environment.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Multi/ViewModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Multi/MultiCompetitionDataModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/StravaMultiEffortServiceClient.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Multi/environment.js",
+		"/C/depot_hg/strevemer/StreveMer/Views/Competition/Multi.cshtml",
+		"/C/temp/demo.html",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Single/environment.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Effort.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Athlete.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Single/EffortBase.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/StravaEffortServiceRequest.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Index/CompetitionInputModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/RestClient.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Index/CompetitionResultsModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Index/CompetitionDetailsModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/SegmentReference.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/PrecompiledPagedContent.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/DialogManager.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/Web/Content/bootstrap.css",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Index/init.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/VisualizeFullCompetition.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CombinedEffort.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/ResultListLine.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/EffortsPerSegment.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Index/CompetitionModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/BusySpinner.js",
+		"/C/depot_hg/strevemer/StreveMer/notes.txt",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/connectionStrings.config",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Web.config",
+		"/C/Users/stale.heitmann/Downloads/strevemer.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/PagedContent.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CurrentUserModel.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CompetitionBucket.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/strevemer2.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/pubsub-publish.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/qunit-test.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/pubsub-subscribe.sublime-snippet",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Storage.js",
+		"/C/depot_hg/strevemer/StreveMer/SampleData/Tryvann2012.json",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Visualization/Index/Visualization.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Visualization/Index/RidesPerDay.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Visualization/Index/init.js",
+		"/C/depot_hg/strevemer/strevemer.sublime-project",
+		"/C/depot_hg/strevemer/StreveMer/SampleData/CompetitionResults.json",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CombinedEffortsPerSegment.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/EffortInBucket.js",
+		"/C/temp/test_d3_1.html",
+		"/C/depot_hg/strevemer/StreveMer/Views/Visualization/Index.cshtml",
+		"/C/Users/stale.heitmann/Downloads/d3.v2.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/PrecompiledCompetition.js",
+		"/C/depot_hg/strevemer/StreveMer/Views/Competition/Index.cshtml",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CompetitionEffort.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Tenancy/init.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Competition/Tenancy/TenancyModel.js",
+		"/C/depot_hg/composeg/UnitTests/Fagdag.cs",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/Tenancy.js",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer/CompetitionReference.js",
+		"/C/depot_hg/strevemer/StreverMer.Common/Competitions/FakeCompetitionService.cs",
+		"/C/S/SLKModulis/Dev/Lan/Web/Scripts/kolis/init.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/fileheader-computas.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/fileheader-ssh.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/classheader-documentation.sublime-snippet",
+		"/C/Users/stale.heitmann/Google Drive/BarnOgSkole/Klasseliste 1 A (2012-2013)_Anders.txt",
+		"/C/depot_hg/strevemer/StreveMer/Scripts/strevemer.js",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Tjenester/Extensions/StudentstatusExtensions.cs",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"//applikasjon01/c$/inetpub/Ekstern/Datautveksling/B2B/v1/Web.config",
+		"//applikasjon01/cdrive/inetpub/Ekstern/Datautveksling/B2B/v1/Web.config",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Utdanningsgodkjenning_arsrevisjon.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/knockout-observable.sublime-snippet",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/afl.konstanter.js",
+		"/C/S/SLKModulis/Dev/AFL/AFL.sublime-project",
+		"/C/temp/jquery.ba-hashchange.js",
+		"/C/S/SLKModulis/Dev/AFL/feilmelding.txt",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Views/Utdanningsgodkjenning/Index.cshtml",
+		"//portal01/cdrive/inetpub/AFL/AFL.log",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/function-in-model.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/model-function-(class).sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/knockout-computed.sublime-snippet",
+		"/C/S/SLKModulis/Dev/Lan/Web/Scripts/kolis/KontoOgSaldo/KundeOversikt/KontoOgSaldoViewModel.js",
+		"//portal12/cdrive/inetpub/KolisWeb/Log.config",
+		"/f/x.js",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/siaf.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/docload.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/funstale.sublime-snippet",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Pretty JSON/Default (Windows).sublime-keymap",
+		"/C/temp/dynamiskevedier.json",
+		"/C/Users/stale.heitmann/Google Drive/Sublime_License.txt",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Master.js",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Views/Utdanningsgodkjenning/HentSkjermbildeLopendeRevisjon.cshtml",
+		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/studentstatus.endreStudiebelastning.js",
+		"/C/S/SLKModulis/Dev/Lan/Web.Tests/Scripts/kolis/kodeverk.tests.js",
+		"/C/S/SLKModulis/Dev/Lan/Web/Scripts/kolis/KontoOgSaldo/KundeOversikt2/KontoOgSaldoRazorViewModel.js"
+	],
+	"find":
+	{
+		"height": 83.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"velgKunde",
+			"self.sokteKunder",
+			"sokteKunder",
+			"	            ",
+			"	    ",
+			"sokteKunder",
+			"validerKnyttInnbetalingTilKundeRetur",
+			"oppdatertStatus",
+			"status",
+			"kanSokes",
+			"subscribe",
+			"Modulis.Innbetaling.Knytt.BusNokler.KundeKnyttetTilInnbetaling",
+			"showSuccessDialog",
+			"showErrorDialog",
+			"lagSpinner",
+			"innbetalingSpinner",
+			"serverObject",
+			"self",
+			"brukKundeError",
+			"brukKundeKjerne",
+			"brukKunde",
+			"knyttTilFlere",
+			"diff",
+			"ByttFokusTilstand",
+			"brukKunde",
+			"knyttTilFlereObsrv",
+			"kanBehandles",
+			"2121",
+			"visEndreKundeKnytning",
+			"brukKunde",
+			"kunde(",
+			"brukKunde",
+			"private",
+			"hentKunde",
+			"publish:",
+			"            	",
+			"	            ",
+			"		    ",
+			"			    ",
+			"		    ",
+			"	    ",
+			"		    ",
+			"		        ",
+			"	    ",
+			"			    ",
+			"	        ",
+			"	    ",
+			"                 	",
+			"		    ",
+			"	    ",
+			"brukKunde",
+			"	    ",
+			"KundeKnyttetTilInnbetaling",
+			"brukKunde",
+			"        }",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"Modulis.Innbetaling.Knytt.BusNokler.InnbetalingValgt",
+			"settValgtInnbetaling",
+			"velgInnbetaling",
+			"VelgKall",
+			"CurrentBrowserHistory",
+			"appendIfKeyIsMissing",
+			"	",
+			"				",
+			"			",
+			"	            ",
+			"	    ",
+			"kodeKode",
+			"2012",
+			"2011",
+			"2010",
+			"Desember",
+			"currentUser",
+			"allBuckets",
+			"allEfforts",
+			"sorted",
+			"setEfforts",
+			"id=",
+			"totalTime",
+			"effCountTmp",
+			"Athletes",
+			"athletes",
+			"AthleteS",
+			"athletes",
+			"points",
+			"athlete",
+			"points",
+			"pointablePoints",
+			"appendEfforts",
+			"sortAndSetPlacements",
+			"self.segments",
+			"dataKey",
+			"key",
+			"effs",
+			"segmentSpecs",
+			"self.athletes",
+			"competitionModel",
+			"currentBucket",
+			"allBuckets",
+			"setBucket",
+			"bucketSelected",
+			"setBucket",
+			"currentBuckets",
+			"self.efforts",
+			"efforts",
+			"Efforts",
+			"efforts",
+			"totalRecordsFetched",
+			"efforts",
+			"Efforts",
+			"efforts",
+			"self.buckets",
+			"self.bucketS",
+			"self.buckets",
+			"self.bucketS",
+			"self.buckets",
+			"Buckets",
+			"bucketS",
+			"buckets",
+			"numberOfFullJobs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"SkolepengerIndividuell"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"note",
+				"StreveMer/notes.txt"
+			],
+			[
+				"curr",
+				"Scripts/strevemer/CurrentUserModel.js"
+			],
+			[
+				"pagedcon",
+				"Scripts/strevemer/PagedContent.js"
+			],
+			[
+				"result",
+				"Scripts/strevemer/ResultListLine.js"
+			],
+			[
+				"dia",
+				"Scripts/strevemer/DialogManager.js"
+			],
+			[
+				"notes",
+				"StreveMer/notes.txt"
+			],
+			[
+				"no",
+				"StreveMer/notes.txt"
+			],
+			[
+				"not",
+				"StreveMer/notes.txt"
+			],
+			[
+				"page",
+				"Scripts/strevemer/PagedContent.js"
+			],
+			[
+				"utd.js",
+				"Scripts/Utdanningsgodkjenning.js"
+			],
+			[
+				"u/ind",
+				"Views/Utdanningsgodkjenning/Index.cshtml"
+			],
+			[
+				"utdann",
+				"Utdanningsgodkjenning.js"
+			],
+			[
+				"sublime",
+				"AFL.sublime-project"
+			],
+			[
+				"viewmo",
+				"kolis/KontoOgSaldo/KundeOversikt/KontoOgSaldoViewModel.js"
+			],
+			[
+				"kodever",
+				"kolis/kodeverk_data.js"
+			],
+			[
+				"kn",
+				"knockout-observable.sublime-snippet"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/depot_hg/StreverMerNJS/StreveMerNJS.sublime-project"
+			]
+		],
+		"width": 772.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true
+}
