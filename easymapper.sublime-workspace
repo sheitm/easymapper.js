@@ -272,34 +272,35 @@
 	"buffers":
 	[
 		{
-			"file": "test/tests.html",
+			"file": "easymapper.js",
 			"settings":
 			{
-				"buffer_size": 629,
+				"buffer_size": 1564,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "test/core.js",
+			"file": "test/tests.js",
 			"settings":
 			{
-				"buffer_size": 113,
+				"buffer_size": 1300,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "test/test-runner.js",
+			"contents": "Bindings value: options: alleLovgodkjenninger, optionsText: 'verdi', value: lovgodkjenning, attr: { name: idLovgodkjenning } ",
 			"settings":
 			{
-				"buffer_size": 340,
-				"line_ending": "Windows"
+				"buffer_size": 125,
+				"line_ending": "Windows",
+				"name": "Bindings value: options: alleLovgodkjenninger, opt"
 			}
 		},
 		{
-			"file": "test/Procfile",
+			"file": "/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Utdanningsgodkjenning.js",
 			"settings":
 			{
-				"buffer_size": 24,
+				"buffer_size": 52177,
 				"line_ending": "Windows"
 			}
 		}
@@ -496,13 +497,17 @@
 	},
 	"file_history":
 	[
-		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/easymapper.sublime-project",
 		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/README.md",
+		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/tests.html",
+		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/Procfile",
+		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/test-runner.js",
+		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/keymaster.js",
+		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/core.js",
+		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/easymapper.sublime-project",
 		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/easymapper.js",
 		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/.gitignore",
 		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/tests.js",
 		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/vendor/core.js",
-		"/C/Users/stale.heitmann/Documents/GitHub/easymapper/test/core.js",
 		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/FordelBelopViewModel.js",
 		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/Innbetaling/Knytt/InnbetalingerViewModel.js",
 		"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/Web/Scripts/Modulis/miljo.js",
@@ -619,11 +624,7 @@
 		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/funstale.sublime-snippet",
 		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Pretty JSON/Default (Windows).sublime-keymap",
 		"/C/temp/dynamiskevedier.json",
-		"/C/Users/stale.heitmann/Google Drive/Sublime_License.txt",
-		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/stale.heitmann/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Master.js",
-		"/C/S/SLKModulis/Dev/AFL/AFL.Web/Views/Utdanningsgodkjenning/HentSkjermbildeLopendeRevisjon.cshtml"
+		"/C/Users/stale.heitmann/Google Drive/Sublime_License.txt"
 	],
 	"find":
 	{
@@ -642,6 +643,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"self.undervisningsform",
+			"\\",
+			"global",
 			"velgKunde",
 			"self.sokteKunder",
 			"sokteKunder",
@@ -766,10 +770,7 @@
 			"self.buckets",
 			"self.bucketS",
 			"self.buckets",
-			"Buckets",
-			"bucketS",
-			"buckets",
-			"numberOfFullJobs"
+			"Buckets"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -789,23 +790,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/tests.html",
+					"file": "easymapper.js",
 					"settings":
 					{
-						"buffer_size": 629,
+						"buffer_size": 1564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								1407,
+								1407
 							]
 						],
 						"settings":
@@ -898,30 +899,29 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "test/core.js",
+					"file": "test/tests.js",
 					"settings":
 					{
-						"buffer_size": 113,
+						"buffer_size": 1300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								1182,
+								1182
 							]
 						],
 						"settings":
@@ -1014,7 +1014,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1024,111 +1025,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "test/test-runner.js",
 					"settings":
 					{
-						"buffer_size": 340,
+						"buffer_size": 125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								125,
+								125
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "Bindings value: options: alleLovgodkjenninger, opt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1138,18 +1051,30 @@
 				},
 				{
 					"buffer": 3,
-					"file": "test/Procfile",
+					"file": "/C/S/SLKModulis/Dev/AFL/AFL.Web/Scripts/Utdanningsgodkjenning.js",
 					"settings":
 					{
-						"buffer_size": 24,
+						"buffer_size": 52177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								22184,
+								22162
+							],
+							[
+								22218,
+								22240
+							],
+							[
+								24719,
+								24741
+							],
+							[
+								27185,
+								27207
 							]
 						],
 						"settings":
@@ -1242,10 +1167,12 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 12665.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1372,7 +1299,7 @@
 		[
 			[
 				"",
-				"/C/depot_hg/StreverMerNJS/StreveMerNJS.sublime-project"
+				"/C/S/SLKModulis/HL3/DevHL3/Lan/LanWeb/LanWeb-HL3.sublime-project"
 			]
 		],
 		"width": 772.0
