@@ -20,8 +20,8 @@ test("upperToLower - No named map - Maps values as expected", function() {
 	easymapper.upperToLower(src, dest);
 
 	// Assert
-	equal(id, dest.id, "Value copied as expected");
-	equal(name, dest.name, "Value copied as expected");
+	equal(id, dest.id);
+	equal(name, dest.name);
 });
 
 test("lowerToUpper - No named map - Maps values as expected", function() {
@@ -69,6 +69,23 @@ test("map - dest setter is function - Maps values as expected", function() {
 
 module("Value transformers, sourceGetterConvention");
 test("map - With value transformer - Maps values as expected", function() {
+	// Arrange
+	var map = {
+		valueTransformers: {
+			sex: function(n) { return n + " transformed"; }
+		}
+	};
+
+	var src = { Sex: "M" };
+	var dest = {};
+
+	// Act
+	easymapper.map(src, dest, map);
+
+	// Assert
+	equal("M transformed", dest.sex);
+});
+test("map - With value transformer and named map - Maps values as expected", function() {
 	// Arrange
 	var mapName = "MAP1";
 	var map = {
