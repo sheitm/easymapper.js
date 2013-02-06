@@ -1,4 +1,5 @@
 (function(global){
+	// Attaching easymapper to the global variable
 	var _easymapper = global.easymapper = {};
 	_easymapper.__Maps = { };
 
@@ -10,6 +11,8 @@
 		return string.charAt(0).toLowerCase() + string.slice(1);
 	};
 
+	// If getterName is a function, we invoke it
+	// else we get the property value
 	var getVal = function(src, getterName, map) {
 		return (typeof src[getterName] === "function") ? src[getterName].call() : src[getterName];
 	};
@@ -19,18 +22,34 @@
 		if (!map.valueTransformers) { map.valueTransformers = {}; }
 	};
 
+	// If nameOrMap is a string, we'll look up the map
+	// amoung the predfined, named maps (__Maps), else
+	// it's an object and we'll assume that it is a valid
+	// map. Defaults will be added.
 	var getMap = function(nameOrMap) {
 		var map = (typeof nameOrMap === "string") ? global.easymapper.__Maps[nameOrMap] : nameOrMap;
 		addDefaultsToMap(map);
 		return map;
 	};
 
+	// The main motor of the mapper
 	var mapFunc = function(src, dest, nameOrMap) {
 		var map = getMap(nameOrMap);
 		for (var srcProperty in src) {
+			// Compute the name of the property as it
+			// should be on the destination object
 			var destProp = map.nameTransformer(srcProperty);
+
+			// Get the value from the destination object
 			var val = getVal(src, srcProperty, map);
+
+			// Transform the value if a value trasformer is
+			// defined, else leave it as it is
 			val = (map.valueTransformers[destProp]) ? map.valueTransformers[destProp](val) : val;
+
+			// Determine whether the property already is defined
+			// on the destination, and if so whether it is a 
+			// function
 			if (typeof dest[destProp] === "function") {
 				dest[destProp](val);
 			}
@@ -48,6 +67,7 @@
 		mapFunc(src, dest, "__LOWER_TO_UPPER__");
 	};
 
+	// Public API for registering named maps
 	var registerNamedMap = function(name, map) {
 		addDefaultsToMap(map);
 		global.easymapper.__Maps[name] = map;
@@ -63,6 +83,7 @@
 		valueTransformers: {}
 	});
 
+	// Expose whatever should be exposed
 	_easymapper.map = mapFunc;
 	_easymapper.upperToLower = mapFromUpperToLowerFunc;
 	_easymapper.lowerToUpper = mapFromLowerToUpperFunc;
