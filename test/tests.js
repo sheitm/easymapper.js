@@ -105,3 +105,55 @@ test("map - With value transformer and named map - Maps values as expected", fun
 	// Assert
 	equal("M transformed", dest.sex);
 });
+
+module("Mapping object graphs");
+test("upperToLower - nested objects - maps whole structure", function() {
+	// Arrange
+	var src = { Name: "Joe", Address: { Street: "Main street", Zip: "234234", Country: { Name: "United States of America", Code: "USA" } }};
+	var dest = {};
+
+	// Act
+	easymapper.upperToLower(src, dest);
+
+	// Assert
+	ok(dest.address, "Address exists");
+	equal("Main street", dest.address.street, "street set correctly");
+	equal("234234", dest.address.zip, "zip set correctly");
+	ok(dest.address.country, "Country exists");
+	equal("United States of America", dest.address.country.name, "country name set");
+	equal("USA", dest.address.country.code, "country code set");
+});
+
+module("Mapping arrays");
+test("upperToLower - with array of values - array is copied directoy", function() {
+	// Arrange
+	var src = { Pets: ["Dog", "Cat", "Tiger"]};
+	var dest = {};
+
+	// Act
+	easymapper.upperToLower(src, dest);
+
+	// Assert
+	ok(dest.pets, "has copied array");
+	equal(3, dest.pets.length, "array has correct length");
+	equal("Dog", dest.pets[0], "it's a dog!");
+	equal("Cat", dest.pets[1], "it's a cat!");
+	equal("Tiger", dest.pets[2], "it's a tiger!");
+});
+
+test("upperToLower - with array of objects - array is copied directoy", function() {
+	// Arrange
+	var src = { Pets: [{ Species: "Dog", Name: "Fido"}, { Species: "Cat", Name: "Mr. Cat"}]};
+	var dest = {};
+
+	// Act
+	easymapper.upperToLower(src, dest);
+
+	// Assert
+	ok(dest.pets, "has copied array");
+	equal(2, dest.pets.length, "array has correct length");
+	equal("Dog", dest.pets[0].species, "it's a dog!");
+	equal("Fido", dest.pets[0].name, "and it's called Fido!");
+	equal("Cat", dest.pets[1].species, "it's a cat!");
+	equal("Mr. Cat", dest.pets[1].name, "and it's called Mr. Cat!");
+});

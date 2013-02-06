@@ -42,13 +42,30 @@
 
 			// Get the value from the destination object
 			var val = getVal(src, srcProperty, map);
+			if (val instanceof Array) {
+				if (val.length > 0 && typeof val[0] === "object") {
+					var newArray = [];
+					for (var i = 0; i < val.length; i++) {
+						var d = {};
+						mapFunc(val[i], d, map);
+						newArray.push(d);
+					}
+
+					val = newArray;
+				}
+			}
+			else if (typeof val === "object") {
+				var childDest = {};
+				mapFunc(val, childDest, map);
+				val = childDest;
+			}
 
 			// Transform the value if a value trasformer is
 			// defined, else leave it as it is
 			val = (map.valueTransformers[destProp]) ? map.valueTransformers[destProp](val) : val;
 
 			// Determine whether the property already is defined
-			// on the destination, and if so whether it is a 
+			// on the destination, and if so whether it is a
 			// function
 			if (typeof dest[destProp] === "function") {
 				dest[destProp](val);
