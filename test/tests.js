@@ -157,3 +157,38 @@ test("upperToLower - with array of objects - array is copied directoy", function
 	equal("Cat", dest.pets[1].species, "it's a cat!");
 	equal("Mr. Cat", dest.pets[1].name, "and it's called Mr. Cat!");
 });
+
+module("Constructor functions");
+test("map - with constructor function - maps as expected", function() {
+	// Arrange
+	var src = { Street: "Sesame street", Zip: "1344" };
+	var map = { constructor: TestDomain.Address };
+
+	// Act
+	var address = easymapper.map(src, null, map);
+
+	// Assert
+	ok(address, "address created");
+	equal(address.street, "Sesame street", "street mapped correctly");
+	equal(address.zip(), "1344", "zip mapped correctly");
+});
+
+test("map - chained predefined maps - maps as expected", function() {
+	// Arrange
+	var personMap = { constructor: TestDomain.Person };
+	easymapper.registerNamedMap("TestDomain.Person", personMap);
+	var addressMap = { constructor: TestDomain.Address, synonyms: ["TestDomain.Person.address"] };
+	easymapper.registerNamedMap("TestDomain.Address", addressMap);
+
+	var src = { FirstName: "Bill", LastName: "Gates", Address: { Street: "Sesame street", Zip: "1344" } };
+
+	// Act
+	var person = easymapper.map(src, null, "TestDomain.Person");
+
+	// Assert
+	ok(person, "person created");
+	equal(person.name(), "Bill Gates", "name is correct");
+	ok(person.address, "address created");
+	equal(person.address.street, "Sesame street", "street mapped correctly");
+	equal(person.address.zip(), "1344", "zip mapped correctly");
+});
